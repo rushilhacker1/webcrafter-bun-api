@@ -1,0 +1,31 @@
+{
+  "name": "codespaces-blank",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/figlet": "^1.5.8",
+    "bun-types": "^1.0.18-1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "description": "To install dependencies:",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "express": "^4.18.2",
+    "figlet": "^1.7.0",
+    "fs": "^0.0.1-security",
+    "sqlite": "^5.1.1",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build_prod": "bun build ./index.js --outdir ./build",
+    "dev": "bun --watch index.js",
+    "start": "bun index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
