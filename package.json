@@ -1,0 +1,31 @@
+{
+  "name": "codespaces-blank",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/figlet": "^1.5.8",
+    "bun-types": "^1.0.18-1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "description": "To install dependencies:",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@google/generative-ai": "^0.1.3",
+    "async": "^3.2.5",
+    "cassandra-driver": "^4.7.2",
+    "express": "^4.18.2",
+    "figlet": "^1.7.0",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build_prod": "bun build ./index.js --outdir ./build",
+    "dev": "bun --watch index.js",
+    "ran": "bun ./index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
